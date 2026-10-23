@@ -1,0 +1,12 @@
+# Active Record
+
+# connecting our DB to our models
+# doctors -> doctor model
+# any attributes you have in the DB, now you have attr_accessors for all
+
+# provides CRUD methods that we can use to perform actions on our DB
+# we don't have to write the SQL, we use AR methods that will
+
+INSERT INTO doctors (first_name, last_name)
+
+instance.save # -> gave us a method to write SQL for us
